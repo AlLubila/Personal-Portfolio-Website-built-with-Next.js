@@ -1,0 +1,41 @@
+.projectContainer h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    min-height: calc(100vh - 239.84px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70%;
+    margin-top: 40px;
+}
+
+
+.projects{
+    display:grid;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.project{
+    cursor: pointer;
+}
+
+
+
+.projectImg{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.text h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}

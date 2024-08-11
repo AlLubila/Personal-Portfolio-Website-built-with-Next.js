@@ -1,0 +1,21 @@
+.blogContainer h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.container {
+    min-height: calc(100vh - 239.84px);
+    max-width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
